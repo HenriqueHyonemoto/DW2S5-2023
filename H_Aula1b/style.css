@@ -1,0 +1,149 @@
+.navbar{
+    margin: 0;
+    display: flex;
+    background-color: lightskyblue;
+    justify-content: end;
+}
+a{
+    padding: 10px;
+    margin: 0;
+}
+p{
+    padding:10px;
+    margin: 0;
+}
+.telainicio{
+    font-size: x-large;
+    text-align: center;
+    padding-top:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.telabusca{
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 153, 0);
+    background-image: url("img1.webp");
+    padding:150px;
+}
+.telaform{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.telapostagem{
+    font-size: 20px;
+    font-family: sans-serif
+}
+.flex{
+    display:flex;
+}
+
+.infos{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menuinicio:hover{
+    background-color: rgba(255, 240, 217, 0.603)
+}
+.menubusca:hover{
+    background-color: rgba(255, 240, 217, 0.603)
+}
+.menuform:hover{
+    background-color: rgba(255, 240, 217, 0.603)
+}
+.menupost:hover{
+    background-color: rgba(255, 240, 217, 0.603)
+}
+
+form{
+    font-family: sans-serif;
+}
+img{
+    border-radius: 5%;
+
+}
+.formulario { 
+    max-width:480px; 
+    margin:50px auto; 
+}
+.campo {
+  color: #aca4a4;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 2px solid #D2D2D2;
+  transition: all 0.3s;
+  padding: 11px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+.campo:focus { 
+    border: 2px solid #10ADDD; 
+    color: #10ADDD;
+}
+textarea {
+  
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+.botao1 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#4CAF50;
+  color: #ffffff;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  font-size:22px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.botao2 {
+    font-family:  Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#008CBA;
+    color: #ffffff;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+.botao:hover { background:#414141; }
+
+table {
+    margin: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 35%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

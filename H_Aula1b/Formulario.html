@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Desenvolvimento Web 2</title>
+    <link rel="stylesheet" href ="style.css">
+  </head>
+<body>
+
+<div class = "navbar">
+    <a class = "menuinicio"   href = "Inicio.html">Início</a>
+    <a class = "menubusca" href = "Busca.html">Busca</a>
+    <a class = "menuform" style = "background-color: blanchedalmond" href = "Formulario.html">Formulário/Tabela</a>
+    <a class = "menupost" href = "Postagem.html">Postagem c/Imagem</a>
+</div>
+
+<div class = "telaform">
+    
+<h1 style = "text-align: center;">Formulário de cadastro e Tabela com dados</h1>
+<div class = "flex">
+    <div>
+<form class="formulario" method="post" action="#">
+    <label for = "nome">Nome completo</label>
+    <input type="text" name="nome" class="campo" placeholder="" required=""/> 
+    <label for = "telefone">Telefone</label>
+    <input type="tel" name="telefone" class="campo" placeholder="(99)99999-9999" required=""/>  
+    <label for = "email">E-mail</label>
+    <input type="text" name="email" class="campo" placeholder="seu@email.aqui" required=""/>
+    <label for = "estado">Estado de residência</label>
+    <select name="estado" class="campo" placeholder="[selecione]" required="">
+        <optgroup>
+          <option value="sp">SP</option>
+          <option value="ms">MS</option>
+          <option value="mg">MG</option>
+        </optgroup>
+</select>
+    <button type="submit" class="botao1" > Enviar </button>
+
+<br></br>
+
+    <button type="reset" class="botao2"> Limpar </button>   
+</form>
+</div>
+
+<table>
+    <tr style = "background-color: rgb(144, 255, 144);">
+      <th>Nome</th>
+      <th>Telefone</th>
+      <th>Email</th>
+      <th>Estado</th>
+    </tr>
+    <tr>
+      <td>Dean Winchester</td>
+      <td>(17)99485-7374</td>
+      <td>dean.winchester@mail.com</td>
+      <td>SP</td>
+    </tr>
+    <tr>
+        <td>Sam Winchester</td>
+        <td>(17)99354-5463</td>
+        <td>sam.winchester@mail.com</td>
+        <td>RS</td>
+    </tr>
+    <tr>
+        <td>Jack Shephard</td>
+        <td>(17)99789-7634</td>
+        <td>jack.shephard@mail.com</td>
+        <td>MS</td>
+    </tr>
+    <tr>
+        <td>John Locke</td>
+        <td>(17)99123-4324</td>
+        <td>john.locke@mail.com</td>
+        <td>SC</td>
+    </tr>
+  </table>
+</div>
+
+
+</div>
+
+</body>
