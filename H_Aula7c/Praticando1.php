@@ -12,6 +12,7 @@ try {
 } catch (CepPromiseException $e) {
     $boxcolor = 'redBox';
     $address = $e->toArray();
+
 }
 
 ?>
@@ -50,10 +51,10 @@ try {
     <?php
 
 
-    if (isset($address)) {
 
+    if (isset($address)) {
         echo "<div class = $boxcolor>";
-        if ($address["errors"]) {
+        if ($boxcolor == 'redBox') {
             echo "<h1>CEP: ", $cep, "</h1>";
             echo "<br>";
             echo "Detalhes do Erro: ";
@@ -66,13 +67,13 @@ try {
         } else {
             echo "<h1>CEP: ", $cep, "</h1>";
             echo "<br>";
-            echo "Rua: ", $address->street;
+            echo "<b>Rua:</b> ", $address->street;
             echo "<br>";
-            echo "Bairro: ", $address->district;
+            echo "<b>Bairro:</b> ", $address->district;
             echo "<br>";
-            echo "Cidade: ", $address->city;
+            echo "<b>Cidade:</b> ", $address->city;
             echo "<br>";
-            echo "Estado: ", $address->state;
+            echo "<b>Estado:</b> ", $address->state;
         }
 
 
