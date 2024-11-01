@@ -1,0 +1,1 @@
+http://localhost/H_Aula4a/H_Destino.php?email=a@a.com&pass=123&cor=cyan
